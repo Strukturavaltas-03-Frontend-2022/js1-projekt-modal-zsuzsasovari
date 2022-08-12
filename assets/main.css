@@ -85,3 +85,17 @@ footer button{
         width: 50%;
     }  
 }
+
+  .w3-animate-show {
+    animation: show 1s;
+    animation-fill-mode: forwards;
+  }
+ 
+  @keyframes show {
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
+  }

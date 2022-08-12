@@ -2,6 +2,7 @@ function on(){
     modal.style.display = "block";
     document.getElementById("overlay").style.display = "block";
     document.getElementById("button2").focus();
+    myModal.classList.add('w3-animate-show');
 }
 
 function off() {
